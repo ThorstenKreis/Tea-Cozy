@@ -15,7 +15,6 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    border: 1px solid green;
     border-bottom: 1px solid seashell;
     box-sizing: border-box;
     z-index: 1000;

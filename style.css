@@ -1,0 +1,202 @@
+
+
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid green;
+    border-bottom: 1px solid seashell;
+    box-sizing: border-box;
+    z-index: 1000;
+    background-color: black;
+}
+#mission,
+#teaOfTheMonth,
+#location {
+  scroll-margin-top: 80px;
+}
+.img-title {
+    display: flex;
+    align-items: center;
+}
+
+.img-title img {
+    height: 50px;
+}
+
+
+
+.breadcrumbs {
+    
+    display: inline-flex;
+}
+
+.breadcrumbs a {
+    padding: 0 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    
+    height: 700px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2, h3, h5 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    flex-wrap: nowrap;
+}
+.mission-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    background-position: center;
+    width: 1200px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+.mission-text h2,
+.mission-text h4 {
+  padding: 0;
+  margin: 0;
+}
+.teaOfTheMonth {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+.teaOfTheMonth h4{
+    position: relative;
+    top: 180px;
+
+}
+.tea1, .tea2, .tea3, .tea4, .tea5 {
+    height: 200px;
+    width: 300px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.tea1{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg");
+    background-size: 300px 200px; 
+    background-repeat: no-repeat;
+    background-position: center top;
+    height:250px;
+    width: 300px;
+}
+.tea2{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg");
+    background-size: 300px 200px; 
+    background-repeat: no-repeat;
+    background-position: center top;
+    height:250px;
+    width: 300px;
+}
+.tea3{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg");
+    background-size: 300px 200px; 
+    background-repeat: no-repeat;
+    background-position: center top;
+    height:250px;
+    width: 300px;
+}
+.tea4{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
+    background-size: 300px 200px; 
+    background-repeat: no-repeat;
+    background-position: center top;
+    height:250px;
+    width: 300px;
+}
+.tea5{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+    background-size: 300px 200px; 
+    background-repeat: no-repeat;
+    background-position: center top;
+    height:250px;
+    width: 300px;
+}
+
+.location {
+    position: relative;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 600px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    
+    
+}
+
+.location-downtown, .location-eastbayside, .location-oakdale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+    width:300px;
+    height: 300px;
+    background-color: black;
+    margin: 100px 10px 0 10px;
+    padding: 0;
+}
+
+.location h3 {
+    position: absolute;
+    top:20px;
+    color: seashell;
+}
+
+.location-downtown p, .location-eastbayside p, .location-oakdale p {
+    text-align: center;
+   width: 100%;
+   height: 100%;
+   margin: 15px auto;
+}
+.location-title {
+    font-size: 30px;
+}
+
